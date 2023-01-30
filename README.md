@@ -1,7 +1,8 @@
 # Framework_VueJS
  Vue  is a JavaScript framework for building user interfaces.
 
- ### mini project live link : 
+## VueJS user generator mini project
+### mini project live link : 
 
  https://people.arcada.fi/~almandaa/vue/
 
