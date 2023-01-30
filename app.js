@@ -7,7 +7,7 @@ const app = Vue.createApp({
             email:"AmppariCode@google.com",
             gender:"male",
             country:"Norway",
-            img:"https://picsum.photos/200"
+            img:"https://randomuser.me/api/portraits/men/78.jpg"
         }
     },
     methods:{
