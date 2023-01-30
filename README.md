@@ -6,4 +6,4 @@
 - https://people.arcada.fi/~almandaa/vue/
 
 - Image of the website: 
-- !(./img/img1.jpg)
+- ![alt text](./img/img1.jpg)
