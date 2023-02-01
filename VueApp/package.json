@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "scripts": {
+    "ssr": "nuxt build",
+    "dev": "nuxt dev",
+    "clean": "nuxt cleanup",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "nuxt": "^3.1.0"
+  }
+}
