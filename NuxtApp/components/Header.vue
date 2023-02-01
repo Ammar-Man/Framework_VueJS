@@ -1,8 +1,8 @@
 <template>
     <header :class="$style.app_header">
         <h1>
-            <!-- {{title}} -->
-            BankApp
+            {{title}}
+            <!-- BankApp -->
         </h1>
     </header>
 </template>

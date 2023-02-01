@@ -10,3 +10,12 @@
     padding: 4px;
 }
 </style>
+
+<script>
+export default{
+    name:"Header",
+    props: {
+        title: String
+    }
+}
+</script>

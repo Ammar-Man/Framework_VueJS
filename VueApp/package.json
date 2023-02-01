@@ -2,6 +2,7 @@
   "private": true,
   "scripts": {
     "ssr": "nuxt build",
+    "build": "nuxt generate",
     "dev": "nuxt dev",
     "clean": "nuxt cleanup",
     "preview": "nuxt preview",

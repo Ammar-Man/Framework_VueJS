@@ -1,12 +1,27 @@
+<script setup>
+const props = defineProps({
+    title: {
+        type: String,
+        required: false,
+        default: 'App'
+    }
+});
+</script>
+
 <template>
-    <header :class="$style.app_header">
-        <h1>App</h1>
+    <header id="site-header">
+        <h1>{{ props.title }}</h1>
     </header>
 </template>
 
-<style module>
-.app_header {
+<style>
+#site-header {
     background-color: #efefef;
-    padding: 20px;
+    padding: 18px;
+}
+
+#site-header h1 {
+    margin: 0;
+    font-size: 26px;
 }
 </style>

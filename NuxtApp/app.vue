@@ -3,9 +3,10 @@
 
 <template>
   <div class="container">
-    <Header />
+    <Header title="Bank App" />
+    <!-- <Header /> -->
     <Nav />
-    <!-- <Header title="Hello" /> -->
+   
     <!-- <NuxtWelcome /> -->
     <Footer />
   </div>
@@ -21,6 +22,7 @@ export default{
   name:"App",
   components:{
     Header,
+    Nav,
     Footer
   }
 }

@@ -1,6 +1,14 @@
 <template>
-    <Header></Header>
-    <Nav></Nav>
-    <slot />
-    <Footer></Footer>
+    <Header />
+    <Nav />
+    <main id="site-main">
+        <slot />
+    </main>
+    <Footer />
 </template>
+
+<style>
+#site-main {
+    padding: 0 18px;
+}
+</style>

@@ -7,6 +7,14 @@
 <style>
 footer {
     background-color: #efefef;
-    padding: 4px;
+    padding: 0px;
+    position: sticky;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+footer p {
+    padding: 10px;
 }
 </style>

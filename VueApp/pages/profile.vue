@@ -14,15 +14,19 @@ onMounted(() => {
 </script>
 
 <template>
+    <h2>Profile</h2>
     <div v-if="data">
+        <img :src="data.picture.large" :class="$style.avatar" />
         <p>{{ data.gender }}</p>
         <p>{{ data.location.city }}</p>
         <p>{{ data.email }}</p>
-        <img :src="data.picture.large" />
+        <br>
         <button @click="getProfile">Refetch!</button>
-        <hr>
-        <pre>
-            {{ data }}
-        </pre>
     </div>
 </template>
+
+<style module>
+.avatar {
+    border-radius: 50%;
+}
+</style>
