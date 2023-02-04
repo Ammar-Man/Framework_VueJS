@@ -1,5 +1,5 @@
 <template>
-    <Header />
+    <Header title="Custom-admin" />
     <Nav />
     <main id="site-main">
         <slot />
@@ -8,8 +8,9 @@
 </template>
 
 
-<style>
+<style module>
 #site-main {
     padding: 0 18px;
+    background-color:red ;
 }
 </style>
